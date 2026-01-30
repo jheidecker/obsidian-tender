@@ -119,11 +119,15 @@ body
 	--list-marker-color:             var(--blue-milk);
 	--list-marker-color-collapsed:   var(--blue-milk);
 
-    --table-header-background:       var(--blue5); 
-    --table-header-background-hover: var(--blue5); 
+    --table-header-background:       var(--kakhi-man); 
+    --table-header-background-hover: var(--kakhi-man); 
     --table-row-alt-background:      var(--shadow);
-    --table-row-alt-background-hover:          var(--shadow);
+    --table-row-alt-background-hover: var(--shadow);
     --table-border-color:             var(--gandalf);
+    --table-header-color:          var(--extra-milk);
+    --table-header-size:              11pt;
+    --table-text-size:                10pt;
+    
 
     --text-selection:                var(--grey3); 
 
@@ -155,8 +159,11 @@ body
     --tab-text-color-focused-active:         var(--extra-milk); 
     --tab-text-color-focused-active-current: var(--desert-sand); 
 
-	--link-color:                    var(--kakhi-man);
+	--link-color:                    var(--desert-sand);
     --link-color-hover:              var(--extra-milk);
+
+    --link-external-color:           var(--desert-sand);
+    --link-external-color-hover:     var(--extra-milk);
 }
 
 .search-result-file-matched-text

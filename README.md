@@ -16,7 +16,7 @@ Various mapping for code elements and color choices from [terminalcolors](https:
 
 ## Installation
 
-Simply copy the `everforest.css` file to your vault directory/.obsidian/themes to choose it from your settings.
+Simply clone this repo into your vault directory/.obsidian/themes to choose it from your settings.
 
 TODO:
 

@@ -6,7 +6,7 @@ Various mapping for code elements and color choices from [terminalcolors](https:
 
 ## Screenshots
 
-![](screenshot.png)
+![](screenshot_big.png)
 
 ## Features
 

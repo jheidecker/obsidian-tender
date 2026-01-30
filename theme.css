@@ -1,0 +1,179 @@
+:root
+{
+    /* reds */
+    --heart-cake:         #f43753; /* red1 */
+    --cherry-lipstick:    #c5152f; /* red2 */
+    --blush:              #79313c; /* red3 */
+
+    /* blues */
+    --overcast-sky:       #b3deef; /* blue1 */
+    --pigeon-blue:        #73cef4; /* blue2 */
+    --blue-milk:          #44778d; /* blue3 */
+    --blue4:              #335261; /* blue4 */
+    --blue5:              #293b44; /* blue5 */
+
+    /* greens */
+    --shrimply-pibbles: #c9d05c; /* green1 */
+    --old-lime:         #9faa00; /* green2 */
+    --flu-sputum:       #6a6b3f; /* green3 */
+    --green4:           #464632; /* green4 */
+
+    /* yellows */
+    --extra-milk:       #d3b987; /* yellow1 */
+    --desert-sand:      #ffc24b; /* yellow2 */
+    --kakhi-man:        #715b2f; /* yellow3 */
+
+    /* whites */
+    --highlighted:      #ffffff; /* highlighted */
+    --text:             #eeeeee; /* text */
+    --pearl:            #dadada; /* pearl */
+
+    /* greys */
+    --gandalf:          #bbbbbb; /* gandalf */
+    --grey1:            #999999; /* grey1 */
+    --grey2:            #666666; /* grey2 */
+    --grey3:            #444444; /* grey3 */
+    --shadow:           #323232; /* shadow */
+    --bg:               #282828; /* bg */
+    --bg2:              #2d2d2d; /* bg2 */
+    --dark:             #202020; /* dark */
+    --darker:           #1d1d1d; /* darker */
+    --darkest:          #000000; /* darkest */
+}
+
+body
+{
+    /* ? for the accent (button color) */
+    --accent-h: 40;
+    --accent-s: 41%;
+    --accent-l: 31%;
+
+    --link-decoration:                none;
+    --link-decoration-hover:          none;
+    --link-external-decoration:       none;
+    --link-external-decoration-hover: none;
+
+    --tag-decoration:                 none;
+    --tag-decoration-hover:           underline;
+    --tag-padding-x:                  .5em;
+    --tag-padding-y:                  .2em;
+    --tag-radius:                     .5em;
+}
+
+.theme-dark
+{
+    --background-primary:            var(--bg); 
+    --background-primary-alt:        var(--bg); 
+    --background-secondary:          var(--bg2); 
+    --background-secondary-alt:      var(--bg2); 
+    --background-modifier-border:    var(--bg2); 
+
+    --text-normal:                   var(--text); 
+    --text-faint:                    var(--grey2); 
+    --text-muted:                    var(--gandalf); 
+
+    --h1-color:                      var(--pigeon-blue);
+    --h1-size: 15pt;
+
+    --h2-color:                      var(--pigeon-blue);
+    --h2-size: 14pt;
+
+    --h3-color:                      var(--pigeon-blue); 
+    --h3-size: 13pt;
+    --h3-style: italic;
+
+    --h4-color:                      var(--text); 
+    --h4-size: 13pt;
+    --h4-style: italic;
+	--h4-weight: normal;
+
+    --h5-color:                      var(--text); 
+    --h5-style: italic;
+	
+    --h6-color:                      var(--text);
+    --h6-style: italic;
+	--h6-weight: normal;
+
+    --text-highlight-bg:             var(--grey2); 
+    --text-highlight-fg:             var(--text); 
+    --text-accent:                   var(--kakhi-man); 
+    --text-accent-hover:             var(--extra-milk); 
+
+    --tag-color:                     var(--desert-sand); 
+    --tag-background:                var(--grey3); 
+    --tag-background-hover:          var(--grey2); 
+
+    --titlebar-text-color-focused:   var(--desert-sand); 
+
+    --inline-title-color:            var(--desert-sand); 
+
+    --bold-color:                    var(--desert-sand); 
+    --italic-color:                  var(--extra-milk); 
+
+    --checkbox-color:                var(--blue4); 
+    --checkbox-color-hover:          var(--pigeon-blue); 
+    --checkbox-border-color:         var(--blue-milk); 
+    --checkbox-border-color-hover:   var(--pigeon-blue); 
+    --checklist-done-color:          var(--grey2); 
+	
+	--list-marker-color:             var(--blue-milk);
+	--list-marker-color-collapsed:   var(--blue-milk);
+
+    --table-header-background:       var(--blue5); 
+    --table-header-background-hover: var(--blue5); 
+    --table-row-alt-background:      var(--shadow);
+    --table-row-alt-background-hover:          var(--shadow);
+    --table-border-color:             var(--gandalf);
+
+    --text-selection:                var(--grey3); 
+
+    --code-normal:                   var(--gandalf); 
+    --code-background:               var(--shadow);
+    --code-comment:                  var(--grey2);
+    --code-function:                 var(--perl);
+    --code-important:                var(--blush);
+    --code-keyword:                  var(--pigeon-blue);
+    --code-operator:                 var(--heart-cake);
+    --code-property:                 var(--overcast-sky);
+    --code-punctuation:              var(--text);
+    --code-string:                   var(--desert-sand);
+    --code-tag:                      var(--blue-milk);
+    --code-value:                    var(--shrimply-pibbles);
+
+    --icon-color:                    var(--text);
+    --icon-color-hover:              var(--desert-sand); 
+    --icon-color-focused:            var(--extra-milk); 
+
+    --nav-item-color-hover:          var(--extra-milk);
+	--nav-item-color-active:         var(--desert-sand);
+
+    --graph-line:                    var(--gandalf); 
+    --graph-node:                    var(--overcast-sky); 
+    --graph-node-tag:                var(--desert-sand); 
+    --graph-node-attachment:         var(--old-lime); 
+
+    --tab-text-color-focused-active:         var(--extra-milk); 
+    --tab-text-color-focused-active-current: var(--desert-sand); 
+
+	--link-color:                    var(--kakhi-man);
+    --link-color-hover:              var(--extra-milk);
+}
+
+.search-result-file-matched-text
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+.cm-hashtag-begin:hover, .cm-hashtag-end:hover
+{
+    color: var(--text-accent);
+    text-decoration: underline;
+}
+
+.markdown-source-view.mod-cm6 .cm-gutters .cm-active {
+  color: var(--pigeon-blue);
+}
+
+.nav-file-tag {
+	color: var(--old-lime);
+}
